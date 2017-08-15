@@ -1,0 +1,631 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		902513C41F16E2FE00F64519 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 902513C31F16E2FE00F64519 /* main.m */; };
+		902513C71F16E2FE00F64519 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 902513C61F16E2FE00F64519 /* AppDelegate.m */; };
+		902513CA1F16E2FE00F64519 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 902513C91F16E2FE00F64519 /* ViewController.m */; };
+		902513CD1F16E2FE00F64519 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 902513CB1F16E2FE00F64519 /* Main.storyboard */; };
+		902513CF1F16E2FE00F64519 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 902513CE1F16E2FE00F64519 /* Assets.xcassets */; };
+		902513D21F16E2FE00F64519 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 902513D01F16E2FE00F64519 /* LaunchScreen.storyboard */; };
+		902513DB1F16E39400F64519 /* SingleCoreD.m in Sources */ = {isa = PBXBuildFile; fileRef = 902513DA1F16E39400F64519 /* SingleCoreD.m */; };
+		902513DF1F16E3B800F64519 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 902513DE1F16E3B800F64519 /* CoreData.framework */; };
+		902513E71F1704B800F64519 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 902513E51F1704B800F64519 /* Model.xcdatamodeld */; };
+		902513F01F170CB400F64519 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 902513E91F170CB400F64519 /* Card.m */; };
+		902513F21F170CB400F64519 /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 902513ED1F170CB400F64519 /* Deck.m */; };
+		902513F61F1720F800F64519 /* RepoControllerSingle.m in Sources */ = {isa = PBXBuildFile; fileRef = 902513F51F1720F800F64519 /* RepoControllerSingle.m */; };
+		90B243C51F223C15006AAC0C /* ParentChildCoreD.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B243C41F223C15006AAC0C /* ParentChildCoreD.m */; };
+		90B243C81F2245F5006AAC0C /* ViewControllerParentChild.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B243C71F2245F5006AAC0C /* ViewControllerParentChild.m */; };
+		90B243CB1F224626006AAC0C /* RepoControllerParentChild.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B243CA1F224626006AAC0C /* RepoControllerParentChild.m */; };
+		90B243D71F2246BA006AAC0C /* CardTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B243D51F2246BA006AAC0C /* CardTableViewCell.m */; };
+		90B243D81F2246BA006AAC0C /* CardTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90B243D61F2246BA006AAC0C /* CardTableViewCell.xib */; };
+		90B243DC1F224E08006AAC0C /* CardGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B243DB1F224E08006AAC0C /* CardGenerator.m */; };
+		90B243EB1F258002006AAC0C /* fakeNetworkParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B243EA1F258002006AAC0C /* fakeNetworkParser.m */; };
+		90B243F21F278956006AAC0C /* PrivateMainPrivateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B243F11F278956006AAC0C /* PrivateMainPrivateViewController.m */; };
+		90B243F71F2789DA006AAC0C /* PrivateMainPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B243F61F2789DA006AAC0C /* PrivateMainPrivate.m */; };
+		90B244011F27B787006AAC0C /* Deck+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B243FB1F27B787006AAC0C /* Deck+CoreDataProperties.m */; };
+		90B244031F27B787006AAC0C /* Card+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B243FF1F27B787006AAC0C /* Card+CoreDataProperties.m */; };
+		90B244061F27C7B2006AAC0C /* PrivateMainPrivateController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B244051F27C7B2006AAC0C /* PrivateMainPrivateController.m */; };
+		90B2440D1F27DD2C006AAC0C /* SiblingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B2440C1F27DD2C006AAC0C /* SiblingViewController.m */; };
+		90B244121F27DD5F006AAC0C /* SiblingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B244111F27DD5F006AAC0C /* SiblingController.m */; };
+		90B244151F27DD76006AAC0C /* SiblingStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B244141F27DD76006AAC0C /* SiblingStack.m */; };
+		90B2441A1F28D3D9006AAC0C /* Database.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B244191F28D3D9006AAC0C /* Database.m */; };
+		90B2441C1F28DDB0006AAC0C /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 90B2441B1F28DDB0006AAC0C /* libsqlite3.tbd */; };
+		90B2441F1F28E05F006AAC0C /* CardSQL.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B2441E1F28E05F006AAC0C /* CardSQL.m */; };
+		90B244231F28E079006AAC0C /* DeckSQL.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B244221F28E079006AAC0C /* DeckSQL.m */; };
+		90B244261F28E758006AAC0C /* SQLiteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B244251F28E758006AAC0C /* SQLiteViewController.m */; };
+		90B244291F2BD2FD006AAC0C /* FakeFetchController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B244281F2BD2FD006AAC0C /* FakeFetchController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		902513BF1F16E2FE00F64519 /* CoreDataExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		902513C31F16E2FE00F64519 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		902513C51F16E2FE00F64519 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		902513C61F16E2FE00F64519 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		902513C81F16E2FE00F64519 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		902513C91F16E2FE00F64519 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		902513CC1F16E2FE00F64519 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		902513CE1F16E2FE00F64519 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		902513D11F16E2FE00F64519 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		902513D31F16E2FE00F64519 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		902513D91F16E39400F64519 /* SingleCoreD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleCoreD.h; sourceTree = "<group>"; };
+		902513DA1F16E39400F64519 /* SingleCoreD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingleCoreD.m; sourceTree = "<group>"; };
+		902513DE1F16E3B800F64519 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		902513E61F1704B800F64519 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		902513E81F170CB400F64519 /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Card.h; path = ../Card.h; sourceTree = "<group>"; };
+		902513E91F170CB400F64519 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Card.m; path = ../Card.m; sourceTree = "<group>"; };
+		902513EC1F170CB400F64519 /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Deck.h; path = ../Deck.h; sourceTree = "<group>"; };
+		902513ED1F170CB400F64519 /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Deck.m; path = ../Deck.m; sourceTree = "<group>"; };
+		902513F41F1720F800F64519 /* RepoControllerSingle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RepoControllerSingle.h; sourceTree = "<group>"; };
+		902513F51F1720F800F64519 /* RepoControllerSingle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RepoControllerSingle.m; sourceTree = "<group>"; };
+		90B243C31F223C15006AAC0C /* ParentChildCoreD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParentChildCoreD.h; sourceTree = "<group>"; };
+		90B243C41F223C15006AAC0C /* ParentChildCoreD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParentChildCoreD.m; sourceTree = "<group>"; };
+		90B243C61F2245F5006AAC0C /* ViewControllerParentChild.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerParentChild.h; sourceTree = "<group>"; };
+		90B243C71F2245F5006AAC0C /* ViewControllerParentChild.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerParentChild.m; sourceTree = "<group>"; };
+		90B243C91F224626006AAC0C /* RepoControllerParentChild.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RepoControllerParentChild.h; sourceTree = "<group>"; };
+		90B243CA1F224626006AAC0C /* RepoControllerParentChild.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RepoControllerParentChild.m; sourceTree = "<group>"; };
+		90B243D41F2246BA006AAC0C /* CardTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardTableViewCell.h; sourceTree = "<group>"; };
+		90B243D51F2246BA006AAC0C /* CardTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardTableViewCell.m; sourceTree = "<group>"; };
+		90B243D61F2246BA006AAC0C /* CardTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CardTableViewCell.xib; sourceTree = "<group>"; };
+		90B243DA1F224E08006AAC0C /* CardGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardGenerator.h; sourceTree = "<group>"; };
+		90B243DB1F224E08006AAC0C /* CardGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardGenerator.m; sourceTree = "<group>"; };
+		90B243E91F258002006AAC0C /* fakeNetworkParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fakeNetworkParser.h; sourceTree = "<group>"; };
+		90B243EA1F258002006AAC0C /* fakeNetworkParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fakeNetworkParser.m; sourceTree = "<group>"; };
+		90B243F01F278956006AAC0C /* PrivateMainPrivateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrivateMainPrivateViewController.h; sourceTree = "<group>"; };
+		90B243F11F278956006AAC0C /* PrivateMainPrivateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrivateMainPrivateViewController.m; sourceTree = "<group>"; };
+		90B243F51F2789DA006AAC0C /* PrivateMainPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrivateMainPrivate.h; sourceTree = "<group>"; };
+		90B243F61F2789DA006AAC0C /* PrivateMainPrivate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrivateMainPrivate.m; sourceTree = "<group>"; };
+		90B243FA1F27B787006AAC0C /* Deck+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Deck+CoreDataProperties.h"; path = "../Deck+CoreDataProperties.h"; sourceTree = "<group>"; };
+		90B243FB1F27B787006AAC0C /* Deck+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Deck+CoreDataProperties.m"; path = "../Deck+CoreDataProperties.m"; sourceTree = "<group>"; };
+		90B243FE1F27B787006AAC0C /* Card+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Card+CoreDataProperties.h"; path = "../Card+CoreDataProperties.h"; sourceTree = "<group>"; };
+		90B243FF1F27B787006AAC0C /* Card+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Card+CoreDataProperties.m"; path = "../Card+CoreDataProperties.m"; sourceTree = "<group>"; };
+		90B244041F27C7B2006AAC0C /* PrivateMainPrivateController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrivateMainPrivateController.h; sourceTree = "<group>"; };
+		90B244051F27C7B2006AAC0C /* PrivateMainPrivateController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrivateMainPrivateController.m; sourceTree = "<group>"; };
+		90B2440B1F27DD2C006AAC0C /* SiblingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SiblingViewController.h; sourceTree = "<group>"; };
+		90B2440C1F27DD2C006AAC0C /* SiblingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SiblingViewController.m; sourceTree = "<group>"; };
+		90B244101F27DD5F006AAC0C /* SiblingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SiblingController.h; sourceTree = "<group>"; };
+		90B244111F27DD5F006AAC0C /* SiblingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SiblingController.m; sourceTree = "<group>"; };
+		90B244131F27DD76006AAC0C /* SiblingStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SiblingStack.h; sourceTree = "<group>"; };
+		90B244141F27DD76006AAC0C /* SiblingStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SiblingStack.m; sourceTree = "<group>"; };
+		90B244181F28D3D9006AAC0C /* Database.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Database.h; sourceTree = "<group>"; };
+		90B244191F28D3D9006AAC0C /* Database.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Database.m; sourceTree = "<group>"; };
+		90B2441B1F28DDB0006AAC0C /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		90B2441D1F28E05F006AAC0C /* CardSQL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardSQL.h; sourceTree = "<group>"; };
+		90B2441E1F28E05F006AAC0C /* CardSQL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardSQL.m; sourceTree = "<group>"; };
+		90B244211F28E079006AAC0C /* DeckSQL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeckSQL.h; sourceTree = "<group>"; };
+		90B244221F28E079006AAC0C /* DeckSQL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeckSQL.m; sourceTree = "<group>"; };
+		90B244241F28E758006AAC0C /* SQLiteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQLiteViewController.h; sourceTree = "<group>"; };
+		90B244251F28E758006AAC0C /* SQLiteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 5; lastKnownFileType = sourcecode.c.objc; path = SQLiteViewController.m; sourceTree = "<group>"; };
+		90B244271F2BD2FD006AAC0C /* FakeFetchController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FakeFetchController.h; sourceTree = "<group>"; };
+		90B244281F2BD2FD006AAC0C /* FakeFetchController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FakeFetchController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		902513BC1F16E2FE00F64519 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90B2441C1F28DDB0006AAC0C /* libsqlite3.tbd in Frameworks */,
+				902513DF1F16E3B800F64519 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		902513B61F16E2FE00F64519 = {
+			isa = PBXGroup;
+			children = (
+				902513C11F16E2FE00F64519 /* CoreDataExample */,
+				902513C01F16E2FE00F64519 /* Products */,
+				902513DD1F16E3B800F64519 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		902513C01F16E2FE00F64519 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				902513BF1F16E2FE00F64519 /* CoreDataExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		902513C11F16E2FE00F64519 /* CoreDataExample */ = {
+			isa = PBXGroup;
+			children = (
+				90B244161F28D3AE006AAC0C /* SQLite */,
+				90B244071F27DB77006AAC0C /* Siblings */,
+				90B243D91F224DE2006AAC0C /* CardGenerator */,
+				90B243D41F2246BA006AAC0C /* CardTableViewCell.h */,
+				90B243D51F2246BA006AAC0C /* CardTableViewCell.m */,
+				90B243EF1F278619006AAC0C /* PrivateMainPrivate */,
+				90B243BF1F223B93006AAC0C /* ParentChildContext */,
+				90B243BE1F22393B006AAC0C /* SingleContextMain */,
+				902513E41F1704A300F64519 /* Model */,
+				902513C51F16E2FE00F64519 /* AppDelegate.h */,
+				902513C61F16E2FE00F64519 /* AppDelegate.m */,
+				902513CB1F16E2FE00F64519 /* Main.storyboard */,
+				90B243D61F2246BA006AAC0C /* CardTableViewCell.xib */,
+				902513CE1F16E2FE00F64519 /* Assets.xcassets */,
+				902513D01F16E2FE00F64519 /* LaunchScreen.storyboard */,
+				902513D31F16E2FE00F64519 /* Info.plist */,
+				902513C21F16E2FE00F64519 /* Supporting Files */,
+			);
+			path = CoreDataExample;
+			sourceTree = "<group>";
+		};
+		902513C21F16E2FE00F64519 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				902513C31F16E2FE00F64519 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		902513DC1F16E39D00F64519 /* Repo */ = {
+			isa = PBXGroup;
+			children = (
+				902513D91F16E39400F64519 /* SingleCoreD.h */,
+				902513DA1F16E39400F64519 /* SingleCoreD.m */,
+			);
+			name = Repo;
+			sourceTree = "<group>";
+		};
+		902513DD1F16E3B800F64519 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				90B2441B1F28DDB0006AAC0C /* libsqlite3.tbd */,
+				902513DE1F16E3B800F64519 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		902513E31F1703C300F64519 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				902513F41F1720F800F64519 /* RepoControllerSingle.h */,
+				902513F51F1720F800F64519 /* RepoControllerSingle.m */,
+				90B243E91F258002006AAC0C /* fakeNetworkParser.h */,
+				90B243EA1F258002006AAC0C /* fakeNetworkParser.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		902513E41F1704A300F64519 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				90B243FA1F27B787006AAC0C /* Deck+CoreDataProperties.h */,
+				90B243FB1F27B787006AAC0C /* Deck+CoreDataProperties.m */,
+				90B243FE1F27B787006AAC0C /* Card+CoreDataProperties.h */,
+				90B243FF1F27B787006AAC0C /* Card+CoreDataProperties.m */,
+				902513E81F170CB400F64519 /* Card.h */,
+				902513E91F170CB400F64519 /* Card.m */,
+				902513EC1F170CB400F64519 /* Deck.h */,
+				902513ED1F170CB400F64519 /* Deck.m */,
+				902513E51F1704B800F64519 /* Model.xcdatamodeld */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		90B243BE1F22393B006AAC0C /* SingleContextMain */ = {
+			isa = PBXGroup;
+			children = (
+				902513E31F1703C300F64519 /* Controller */,
+				902513DC1F16E39D00F64519 /* Repo */,
+				902513C81F16E2FE00F64519 /* ViewController.h */,
+				902513C91F16E2FE00F64519 /* ViewController.m */,
+			);
+			name = SingleContextMain;
+			sourceTree = "<group>";
+		};
+		90B243BF1F223B93006AAC0C /* ParentChildContext */ = {
+			isa = PBXGroup;
+			children = (
+				90B243C11F223BC1006AAC0C /* Repo */,
+				90B243C01F223BA8006AAC0C /* Controller */,
+				90B243C71F2245F5006AAC0C /* ViewControllerParentChild.m */,
+				90B243C61F2245F5006AAC0C /* ViewControllerParentChild.h */,
+			);
+			name = ParentChildContext;
+			sourceTree = "<group>";
+		};
+		90B243C01F223BA8006AAC0C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				90B243C91F224626006AAC0C /* RepoControllerParentChild.h */,
+				90B243CA1F224626006AAC0C /* RepoControllerParentChild.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		90B243C11F223BC1006AAC0C /* Repo */ = {
+			isa = PBXGroup;
+			children = (
+				90B243C31F223C15006AAC0C /* ParentChildCoreD.h */,
+				90B243C41F223C15006AAC0C /* ParentChildCoreD.m */,
+			);
+			name = Repo;
+			sourceTree = "<group>";
+		};
+		90B243D91F224DE2006AAC0C /* CardGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				90B243DA1F224E08006AAC0C /* CardGenerator.h */,
+				90B243DB1F224E08006AAC0C /* CardGenerator.m */,
+			);
+			name = CardGenerator;
+			sourceTree = "<group>";
+		};
+		90B243EF1F278619006AAC0C /* PrivateMainPrivate */ = {
+			isa = PBXGroup;
+			children = (
+				90B243F41F278972006AAC0C /* Controller */,
+				90B243F31F278961006AAC0C /* Repo */,
+				90B243F01F278956006AAC0C /* PrivateMainPrivateViewController.h */,
+				90B243F11F278956006AAC0C /* PrivateMainPrivateViewController.m */,
+			);
+			name = PrivateMainPrivate;
+			sourceTree = "<group>";
+		};
+		90B243F31F278961006AAC0C /* Repo */ = {
+			isa = PBXGroup;
+			children = (
+				90B243F51F2789DA006AAC0C /* PrivateMainPrivate.h */,
+				90B243F61F2789DA006AAC0C /* PrivateMainPrivate.m */,
+			);
+			name = Repo;
+			sourceTree = "<group>";
+		};
+		90B243F41F278972006AAC0C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				90B244041F27C7B2006AAC0C /* PrivateMainPrivateController.h */,
+				90B244051F27C7B2006AAC0C /* PrivateMainPrivateController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		90B244071F27DB77006AAC0C /* Siblings */ = {
+			isa = PBXGroup;
+			children = (
+				90B2440F1F27DD3E006AAC0C /* Controller */,
+				90B2440E1F27DD34006AAC0C /* Repo */,
+				90B2440B1F27DD2C006AAC0C /* SiblingViewController.h */,
+				90B2440C1F27DD2C006AAC0C /* SiblingViewController.m */,
+			);
+			name = Siblings;
+			sourceTree = "<group>";
+		};
+		90B2440E1F27DD34006AAC0C /* Repo */ = {
+			isa = PBXGroup;
+			children = (
+				90B244131F27DD76006AAC0C /* SiblingStack.h */,
+				90B244141F27DD76006AAC0C /* SiblingStack.m */,
+			);
+			name = Repo;
+			sourceTree = "<group>";
+		};
+		90B2440F1F27DD3E006AAC0C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				90B244101F27DD5F006AAC0C /* SiblingController.h */,
+				90B244111F27DD5F006AAC0C /* SiblingController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		90B244161F28D3AE006AAC0C /* SQLite */ = {
+			isa = PBXGroup;
+			children = (
+				90B244201F28E066006AAC0C /* Model */,
+				90B244171F28D3BA006AAC0C /* Repo */,
+				90B244241F28E758006AAC0C /* SQLiteViewController.h */,
+				90B244251F28E758006AAC0C /* SQLiteViewController.m */,
+				90B244271F2BD2FD006AAC0C /* FakeFetchController.h */,
+				90B244281F2BD2FD006AAC0C /* FakeFetchController.m */,
+			);
+			name = SQLite;
+			sourceTree = "<group>";
+		};
+		90B244171F28D3BA006AAC0C /* Repo */ = {
+			isa = PBXGroup;
+			children = (
+				90B244181F28D3D9006AAC0C /* Database.h */,
+				90B244191F28D3D9006AAC0C /* Database.m */,
+			);
+			name = Repo;
+			sourceTree = "<group>";
+		};
+		90B244201F28E066006AAC0C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				90B2441D1F28E05F006AAC0C /* CardSQL.h */,
+				90B2441E1F28E05F006AAC0C /* CardSQL.m */,
+				90B244211F28E079006AAC0C /* DeckSQL.h */,
+				90B244221F28E079006AAC0C /* DeckSQL.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		902513BE1F16E2FE00F64519 /* CoreDataExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 902513D61F16E2FE00F64519 /* Build configuration list for PBXNativeTarget "CoreDataExample" */;
+			buildPhases = (
+				902513BB1F16E2FE00F64519 /* Sources */,
+				902513BC1F16E2FE00F64519 /* Frameworks */,
+				902513BD1F16E2FE00F64519 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoreDataExample;
+			productName = CoreDataExample;
+			productReference = 902513BF1F16E2FE00F64519 /* CoreDataExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		902513B71F16E2FE00F64519 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Andrew Riznyk";
+				TargetAttributes = {
+					902513BE1F16E2FE00F64519 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 9Q7GR7F7ZQ;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 902513BA1F16E2FE00F64519 /* Build configuration list for PBXProject "CoreDataExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 902513B61F16E2FE00F64519;
+			productRefGroup = 902513C01F16E2FE00F64519 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				902513BE1F16E2FE00F64519 /* CoreDataExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		902513BD1F16E2FE00F64519 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				902513D21F16E2FE00F64519 /* LaunchScreen.storyboard in Resources */,
+				902513CF1F16E2FE00F64519 /* Assets.xcassets in Resources */,
+				902513CD1F16E2FE00F64519 /* Main.storyboard in Resources */,
+				90B243D81F2246BA006AAC0C /* CardTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		902513BB1F16E2FE00F64519 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90B243F71F2789DA006AAC0C /* PrivateMainPrivate.m in Sources */,
+				90B243C51F223C15006AAC0C /* ParentChildCoreD.m in Sources */,
+				90B243D71F2246BA006AAC0C /* CardTableViewCell.m in Sources */,
+				902513F61F1720F800F64519 /* RepoControllerSingle.m in Sources */,
+				90B244011F27B787006AAC0C /* Deck+CoreDataProperties.m in Sources */,
+				90B2440D1F27DD2C006AAC0C /* SiblingViewController.m in Sources */,
+				90B244031F27B787006AAC0C /* Card+CoreDataProperties.m in Sources */,
+				90B2441A1F28D3D9006AAC0C /* Database.m in Sources */,
+				90B243CB1F224626006AAC0C /* RepoControllerParentChild.m in Sources */,
+				90B243DC1F224E08006AAC0C /* CardGenerator.m in Sources */,
+				902513DB1F16E39400F64519 /* SingleCoreD.m in Sources */,
+				902513CA1F16E2FE00F64519 /* ViewController.m in Sources */,
+				902513F01F170CB400F64519 /* Card.m in Sources */,
+				902513C71F16E2FE00F64519 /* AppDelegate.m in Sources */,
+				90B2441F1F28E05F006AAC0C /* CardSQL.m in Sources */,
+				90B244231F28E079006AAC0C /* DeckSQL.m in Sources */,
+				90B244291F2BD2FD006AAC0C /* FakeFetchController.m in Sources */,
+				90B243F21F278956006AAC0C /* PrivateMainPrivateViewController.m in Sources */,
+				90B243C81F2245F5006AAC0C /* ViewControllerParentChild.m in Sources */,
+				90B243EB1F258002006AAC0C /* fakeNetworkParser.m in Sources */,
+				902513F21F170CB400F64519 /* Deck.m in Sources */,
+				90B244261F28E758006AAC0C /* SQLiteViewController.m in Sources */,
+				90B244061F27C7B2006AAC0C /* PrivateMainPrivateController.m in Sources */,
+				90B244121F27DD5F006AAC0C /* SiblingController.m in Sources */,
+				902513C41F16E2FE00F64519 /* main.m in Sources */,
+				902513E71F1704B800F64519 /* Model.xcdatamodeld in Sources */,
+				90B244151F27DD76006AAC0C /* SiblingStack.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		902513CB1F16E2FE00F64519 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				902513CC1F16E2FE00F64519 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		902513D01F16E2FE00F64519 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				902513D11F16E2FE00F64519 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		902513D41F16E2FE00F64519 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		902513D51F16E2FE00F64519 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		902513D71F16E2FE00F64519 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9Q7GR7F7ZQ;
+				INFOPLIST_FILE = CoreDataExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.andrewriznyk.CoreDataExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		902513D81F16E2FE00F64519 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9Q7GR7F7ZQ;
+				INFOPLIST_FILE = CoreDataExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.andrewriznyk.CoreDataExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		902513BA1F16E2FE00F64519 /* Build configuration list for PBXProject "CoreDataExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				902513D41F16E2FE00F64519 /* Debug */,
+				902513D51F16E2FE00F64519 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		902513D61F16E2FE00F64519 /* Build configuration list for PBXNativeTarget "CoreDataExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				902513D71F16E2FE00F64519 /* Debug */,
+				902513D81F16E2FE00F64519 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		902513E51F1704B800F64519 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				902513E61F1704B800F64519 /* Model.xcdatamodel */,
+			);
+			currentVersion = 902513E61F1704B800F64519 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 902513B71F16E2FE00F64519 /* Project object */;
+}
