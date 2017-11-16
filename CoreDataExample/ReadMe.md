@@ -3,38 +3,53 @@ Core Data / SQLite3  iOS
 Heads up!  I’m dyslexic and not the best communicator - so things may be worded a bit funky
 
 Topics
+
     Asynchronous World
-
-    Tools - Instruments
-
+    
+    Tools Instruments
+    
     Fetching
+    
         Faulting
+        
         Request
+        
         Predicate
-        NSExpression
+        
         Async Fetching
+        
         Find or Create
+        
     Batching
 
 
 App - 
 The app is setup to give you Decks of cards - For the most part the data will look like this
 [{
+
     id : 0,
+    
     name : 0,
+    
     cards : [
+    
         {
+        
             id : 0,
+            
             deck_id : 0,
+            
             number : 0,
+            
             type : 0
+            
         }
+        
     ]
+    
 }]
 
 The code is not production -  I am simply using it to illustrate the use of the stack
-AND ITS ALL DONE IN BULK -  it would not always be like this in the real world.
-
 
 
 Stacks
@@ -80,28 +95,46 @@ Example data from a server:
 Deck :
 
 [{
+
     id : 0,
+    
     name : 0
+    
 },
+
 {
+
     id : 1,
+    
     name : 1
+    
 }]
 
 
 Card:
 
 [{
+
     id : 0,
+    
     deck_id : 0,
+    
     number : 0,
+    
     type : 0
+    
 },
+
 {
+
     id : 1,
+    
     deck_id : 0,
+    
     number : 1,
+    
     type : 0
+    
 }]
 
 
@@ -111,6 +144,7 @@ Looking up the object by ID is much faster than looking up the object by a prope
 The way to solve this insert / update problem is to fetch objects in teh range we are inserting and sort them along with our objects. This allows us to fetch once - and check by comparing each property by index to see if the object exists. 
 
 My method for doing this is called
+
 ```Objective-C
 -(void)parseDataFaster:(NSArray*)decks;
 ```
