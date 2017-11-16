@@ -168,7 +168,9 @@ Batch Delete :
 ---------------------
 
 The deletion of 10000 decks took Core data - with the child context 2 minutes. 
+
 CoreData that updates directly to the persistent store coordinator took 16 seconds.
+
 The batch delete half took less than half a second. 
 
 
